@@ -35,17 +35,7 @@
 			</form>
 		</section>
 
-		<section class="post-grid">
-		<!-- Anime Post Card -->
-		<divclass="anime-card">
-			<img src ="images/IMG_20230828_202845.jpg" alt="The Ghost of the past">
-			<h3> Anime Title</h3>
-			<p>Action, Adventure</p>
-			<button>Read More</button>
-		</div>
-		<!-- Repeat for more posts -->
-	</section>
-	
+		
 					<section class = "post-grid">
 					<?php
 					$files = glob("uploads/*.{jpg,png,gif,mp4}", GLOB_BRACE);
@@ -57,7 +47,20 @@
 						}
 					?>
 					</section>
+
+		<section class="post-grid">
+		<!-- Anime Post Card -->
+		<divclass="anime-card">
+			<img src ="images/IMG_20230828_202845.jpg" alt="The Ghost of the past">
+			<h3> Anime Title</h3>
+			<p>Action, Adventure</p>
+			<button>Read More</button>
+		</div>
+		<!-- Repeat for more posts -->
+	</section>
+	
 </main>
 </body>
 
 </html>
+
